@@ -1,0 +1,50 @@
+﻿ <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Pagina.master.cs" Inherits="ExamenProgra2.VISTAS.Pagina" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+  
+    <link href="../CSS/MenuPagina.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <nav>
+      <div class="navbar">
+        <div class="container nav-container">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>  
+          <div class="logo">
+            <h1>Elecciones 2024</h1>
+          </div>
+          <div class="menu-items">
+            <li><a href="Inicio1.aspx">Inicio</a></li>
+            <li><a href="Pagina2.aspx">Registro de Votantes</a></li>
+            <li><a href="Pagina3.aspx">Registro de Electos</a></li>
+            <li><a href="Pagina4.aspx">Votar</a></li>
+            <li><a href="Pagina5.aspx">Resultados de Votaciones</a></li>
+                <li><a href="Login.aspx">Salir</a></li>
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+ 
+ 
+  
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
